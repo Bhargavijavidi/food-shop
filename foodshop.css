@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.organic{
+    font-family: "Pacifico", cursive;
+    font-size: 2rem;
+}
+.nav-link{
+    margin-left: 10px;
+    margin-right: 10px;
+    text-transform: uppercase;
+    color: black;
+    font-family: "Lobster", sans-serif;
+}
+.search{
+    height: 40px;
+    width: 80%;
+    border: 2px solid rgb(248, 26, 92);
+    border-radius: 60px;
+    outline: none;
+    margin-right: -35px;
+    font-family: "Rubik", sans-serif;
+}
+.btn0{
+    height: 40px;
+    width: 40%;
+    background-color: rgb(248, 26, 92);
+    border-radius:60px;
+    border: none;
+    outline: none;
+    color: white;
+    font-weight: 700;
+}
+.main{
+    background-image: url("top-view-composition-batch-meals-with-copy-space_23-2148826889.avif");
+    background-size: cover;
+    height: 100vh;
+    background-position: 50% 50%;
+    width: 100%;
+}
+.header{
+    font-size: 4rem;
+    font-weight: 700;
+    text-align: center;
+    
+}
+.product-h1{
+    font-weight: 700;
+}
+.product-p{
+    color: red;
+    font-weight: 700;
+}
+.more:hover{
+    background-color: rgb(223,15,77);
+    transition: 0.5s;
+}
+.card{
+    transition:1s ease;
+}
+.card:hover{
+    box-shadow: -1px -2px 38px -12px rgba(0,0,0,0.75);
+-webkit-box-shadow: -1px -2px 38px -12px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px -2px 38px -12px rgba(0,0,0,0.75);
+transform: scale(1.05);
+}
+.apple{
+    background-image: url("healthy.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:60vh;
+   
+}
+.apple-h1{
+    font-family: "Playwrite CU", cursive;
+    color: rgb(248, 26, 92);
+    font-weight: bold;
+}
+.footer-section{
+    background-color: black;
+    color: white;
+}
+.btn2{
+    background-color: white;
+    height: 40px;
+    width: 100px;
+    margin-left: -10px;
+    border: 2px solid white;
+    font-weight: 600;
+    outline: none;
+}
+.news input{
+    height: 40px;
+    width: 55%;
+    border: 2px solid white;
+    outline: none;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.news::placeholder{
+    color: white;
+}
+.news p{
+    margin: 0;
+}
+.fab{
+     font-size: 2.5rem;
+     cursor: pointer;
+     padding-right: 5px;
+}
